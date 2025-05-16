@@ -56,4 +56,4 @@ function isvalid(str){
 
 const str = "{}()";
 const Result = isvalid(str);
-console.log(Result); // false
+console.log(Result);// true 
