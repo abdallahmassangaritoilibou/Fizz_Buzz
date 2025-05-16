@@ -53,7 +53,6 @@ function isvalid(str){
     }
     return stack.length === 0;
 }
-
-const str = "{}()";
+const str = "[]{}()";
 const Result = isvalid(str);
 console.log(Result);// true 
